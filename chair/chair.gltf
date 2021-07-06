@@ -1,0 +1,280 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 20b96ed1944f99fd310aada6a21defae413bc238",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 8037,
+            "type": "VEC3",
+            "max": [
+                6.425319671630859,
+                9.586809158325196,
+                3.561694860458374
+            ],
+            "min": [
+                -1.6278780698776246,
+                0.07438049465417862,
+                -4.495279312133789
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 8037,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 8037,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 41958,
+            "type": "SCALAR",
+            "max": [
+                8036.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 96444,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96444,
+            "byteLength": 96444,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 192888,
+            "byteLength": 64296,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 257184,
+            "byteLength": 167832,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 425016,
+            "uri": "chair_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00009361012780573219,
+                "yfov": 0.6024156808853149,
+                "zfar": 5.148557186126709,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "01_-_Default_baseColor",
+            "uri": "chair_images\\01_-_Default_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "01_-_Default_metallicRoughness_rough",
+            "uri": "chair_images\\01_-_Default_metallicRoughness_rough.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "_1___Default",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Armchair_01___Default_0",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5000003576278687,
+                0.27654215693473818,
+                0.6472153067588806
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                3.8146970382513248e-7,
+                -0.023457849398255349,
+                0.147215336561203
+            ],
+            "name": "Armchair_Patricia"
+        },
+        {
+            "children": [
+                3
+            ],
+            "name": "scene"
+        },
+        {
+            "children": [
+                4
+            ],
+            "scale": [
+                0.3153768479824066,
+                0.3153768479824066,
+                0.3153768479824066
+            ],
+            "name": "Meshes"
+        },
+        {
+            "children": [
+                5
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "name": "Sketchfab_model"
+        },
+        {
+            "children": [
+                6
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "name": "model_FBX"
+        },
+        {
+            "children": [
+                7
+            ],
+            "name": "RootNode"
+        },
+        {
+            "children": [
+                8
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -6.228486171266923e-8
+            ],
+            "rotation": [
+                2.1855694143368966e-8,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "Armchair"
+        },
+        {
+            "children": [
+                9
+            ],
+            "translation": [
+                -2.398721933364868,
+                0.0,
+                0.0
+            ],
+            "name": "Object_4"
+        },
+        {
+            "children": [
+                10
+            ],
+            "name": "Armchair_01___Default_0"
+        },
+        {
+            "mesh": 0,
+            "name": "Armchair_01___Default_0"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "01_-_Default_baseColor",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "01_-_Default_metallicRoughness_rough",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
