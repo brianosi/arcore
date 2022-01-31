@@ -93,12 +93,12 @@
     "images": [
         {
             "name": "01_-_Default_baseColor",
-            "uri": "Untitled_images\\01_-_Default_baseColor.jpg",
+            "uri": "01_-_Default_baseColor.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "roughness",
-            "uri": "Untitled_images\\roughness.png",
+            "uri": "roughness.png",
             "mimeType": "image/png"
         }
     ],
